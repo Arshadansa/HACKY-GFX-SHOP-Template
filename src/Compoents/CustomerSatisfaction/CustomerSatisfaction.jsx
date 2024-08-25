@@ -6,16 +6,17 @@ import {CustomerContent } from './CustomerContent';
 const CustomerSatisfaction = () => {
   return (
     <div className="bg-white py-12 text-center">
-      <div className="mb-8">
-        <img 
-          src="/path-to-your-image/customer-satisfaction-badge.png" 
-          alt="Customer Satisfaction 100% Guarantee" 
-          className="mx-auto w-52 border h-52 mb-4"
-        />
-        <h2 className={`text-2xl md:text-4xl ${CustomerContent.colors.mainHeadingColor} ${CustomerContent.fonts.mainHeadingFont}`}>
-          {CustomerContent.customerSatisfaction.title}
-        </h2>
-      </div>
+   <div className="flex flex-col items-center justify-center mb-8">
+   <div className="relative mb-4 w-52 h-52 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 border-8 border-yellow-700 flex items-center justify-center">
+  <span className="text-white text-4xl font-bold tracking-wider">100%</span>
+</div>
+
+  <h2 className="text-2xl md:text-4xl text-yellow-600 font-extrabold text-center">
+    100% Satisfaction Guarantee
+  </h2>
+</div>
+
+
 
       <div className={`text-6xl md:text-8xl ${CustomerContent.colors.ratingColor} ${CustomerContent.fonts.ratingFont}`}>
         {CustomerContent.customerSatisfaction.rating}
