@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const names = [
-  'Abhay S.', 'Rajesh K.', 'Simran P.', 'Ayesha R.', 'Rohan M.',
+  'Anshita', 'Rajesh K.', 'Simran P.', 'Ayesha R.', 'Rohan M.',
   'Priya D.', 'Amit T.', 'Neha B.', 'Vikram G.', 'Anjali S.',
 ];
 

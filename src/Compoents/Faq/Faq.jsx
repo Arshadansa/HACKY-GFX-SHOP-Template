@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import faqData from "./FaqData.js"; // Assuming the file is correctly named
-
+import { handleCheckout } from "../../Util/pixelutil.js"
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [timeLeft, setTimeLeft] = useState(() => calculateTimeLeft());
 
+
+  
   // Function to calculate the time left based on the last saved time in localStorage
   function calculateTimeLeft() {
     const savedTime = localStorage.getItem("timerStart");
@@ -132,7 +134,7 @@ const FAQ = () => {
 
     {/* Buy Now Button */}
     <div className="text-center py-4">
-      <button
+      <button onClick={handleCheckout}
         className="bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white py-2 px-6 rounded-full text-base shadow-md hover:shadow-lg transition-transform transform hover:scale-105 animate-slow-shake font-semibold"
       >
         {faqData.buyButtonText || "BUY NOW"}

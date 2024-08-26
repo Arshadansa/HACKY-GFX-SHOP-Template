@@ -2,7 +2,7 @@
 
 import React from 'react';
 import {CustomerContent } from './CustomerContent';
-
+import { handleCheckout } from "../../Util/pixelutil.js"
 const CustomerSatisfaction = () => {
   return (
     <div className="bg-white py-12 text-center">
@@ -27,13 +27,13 @@ const CustomerSatisfaction = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-12">
         {CustomerContent.customerSatisfaction.feedbacks.map((feedback, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-md p-4 h-96 ">
+          <div key={index} className="bg-white rounded-lg shadow-md p-4  ">
             <img src={feedback.imageSrc} alt={`Feedback ${index + 1}`} className="w-full object-cover" />
           </div>
         ))}
       </div>
       <div className="text-center my-8">
-        <button
+        <button onClick={handleCheckout}
           className={`${CustomerContent.colors.ctaButtonBg} ${CustomerContent.fonts.buttonFont} text-white py-3 px-6 rounded-full text-lg`}
         >
           {CustomerContent. customerSatisfaction.ctaButtonText}

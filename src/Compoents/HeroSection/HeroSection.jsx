@@ -1,6 +1,7 @@
 import React from "react";
 import { content } from "./HeroContent";
 import heroImage from "./hero.png"; // Assuming you have a hero image file
+import { handleCheckout } from "../../Util/pixelutil";
 
 function HeroSection() {
   return (
@@ -72,7 +73,7 @@ function HeroSection() {
 
       {/* Call to Action Button */}
       <div className="text-center my-8 animate-slow-shake">
-        <button
+        <button onClick={handleCheckout}
           className={`${content.colors.ctaButtonBg} ${content.fonts.buttonFont} text-white py-3 px-6 rounded-full text-lg`}
         >
           {content.ctaButtonText}

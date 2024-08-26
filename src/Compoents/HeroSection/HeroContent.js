@@ -1,7 +1,7 @@
 export const content = {
   // Content
   headerTitle: "HACKY GFX SUPERSTORE",
-  notificationText: "Unlock the World's Largest Video Editing Pack for Just ₹199!",
+  notificationText: "Unlock the World's Largest Video Editing Pack with 20,000 + Assets of size over 200 GB+ for Just ₹199!",
   mainHeading: "The Ultimate Video Editing Collection",
   subHeading: "Are you a passionate video editor or aspiring to become one? You've come to the right place.",
   highlightText: "Create Your Visual Masterpiece with Us!",
@@ -28,7 +28,7 @@ export const content = {
 
   // Fonts
   fonts: {
-    headerFont: "font-semibold",
+    headerFont: "font-bold",
     mainHeadingFont: "font-black",
     subHeadingFont: "font-semibold",
     descriptionFont: "font-normal",
