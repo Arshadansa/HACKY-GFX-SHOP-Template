@@ -5,7 +5,7 @@ import { handleCheckout } from "../../Util/pixelutil";
 
 function HeroSection() {
   return (
-    <div className="bg-white p-4">
+    <div className="bg-white p-4 mt-10">
       {/* Header Section */}
       <div className="text-center py-4 animate-fade-in">
         <h1
