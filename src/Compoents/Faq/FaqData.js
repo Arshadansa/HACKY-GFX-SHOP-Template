@@ -1,7 +1,7 @@
 const faqData = {
     // Colors
     colors: {
-        headerColor: "text-blue-600",
+        headerColor: "text-purple-600",
         notificationBorderColor: "border-blue-600",
         notificationIconColor: "text-red-600",
         mainHeadingColor: "text-blue-700",

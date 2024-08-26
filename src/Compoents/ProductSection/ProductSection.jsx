@@ -21,9 +21,9 @@ const ProductSection = () => {
         ))}
       </div>
         {/* Call to Action Button */}
-        <div className="text-center my-8">
+        <div className="text-center my-8 animate-slow-shake">
         <button
-          className={`${ProductContent.colors.ctaButtonBg} ${ProductContent.fonts.buttonFont} text-white py-3 px-6 rounded-full text-lg`}
+          className={`${ProductContent.colors.ctaButtonBg} ${ProductContent.fonts.buttonFont} text-white py-3 px-6 rounded-full  text-lg`}
         >
           {ProductContent.ctaButtonText}
         </button>
