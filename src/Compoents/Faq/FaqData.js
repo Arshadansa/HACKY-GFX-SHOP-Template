@@ -27,7 +27,7 @@ const faqData = {
     faqDataArray: [
         {
             question: "What is included in the Video Editing Bundle?",
-            answer: "The bundle includes over 100 GB of assets, featuring 20,000+ items like 8,000+ transitions, 2,000+ FX presets, 10,000+ fonts, 3,000+ sound effects, glowing effects, overlays, Adobe software, and a complete video editing course.",
+            answer: "The bundle includes over 200 GB of assets, featuring 20,000+ items like 8,000+ transitions, 2,000+ FX presets, 10,000+ fonts, 3,000+ sound effects, glowing effects, overlays, Adobe software, and a complete video editing course.",
         },
         {
             question: "How much does the bundle cost?",
