@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { ProductContent } from './ProductContent';
+import { handleCheckout } from '../../Util/pixelutil';
 
 const ProductSection = () => {
   return (
@@ -22,7 +23,7 @@ const ProductSection = () => {
       </div>
         {/* Call to Action Button */}
         <div className="text-center my-8 animate-slow-shake">
-        <button
+        <button onClick={handleCheckout}
           className={`${ProductContent.colors.ctaButtonBg} ${ProductContent.fonts.buttonFont} text-white py-3 px-6 rounded-full  text-lg`}
         >
           {ProductContent.ctaButtonText}
