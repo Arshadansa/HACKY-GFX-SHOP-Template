@@ -121,13 +121,13 @@ const FAQ = () => {
 
 
 {/* Countdown Timer */}
-<div className="fixed bottom-0 left-0 w-full bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white shadow-lg">
-  <div className="flex items-center justify-center lg:gap-10 flex-wrap w-full border-t-2 border-purple-800">
+<div className="fixed bottom-0 left-0 w-full bg-gradient-to-r from-black via-gray-900 to-black text-white shadow-lg">
+  <div className="flex items-center justify-center lg:gap-10 flex-wrap w-full border-t-2 border-red-600">
     <div className="text-center py-4 flex items-center gap-10">
-      <p className="font-bold md:4xl  text-2xl text-yellow-300">
+      <p className="font-bold md:text-4xl text-2xl text-yellow-400">
         {faqData.countdownLabel || "OFFER ENDS IN"}
       </p>
-      <p className="text-xl md:text-3xl font-semibold text-white bg-yellow-500 py-2 px-4 rounded-lg">
+      <p className="text-xl md:text-3xl font-semibold text-black bg-yellow-400 py-2 px-4 rounded-lg">
         {formatTime(timeLeft)}
       </p>
     </div>
@@ -135,13 +135,14 @@ const FAQ = () => {
     {/* Buy Now Button */}
     <div className="text-center py-4">
       <button onClick={handleCheckout}
-        className="bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-600 hover:to-purple-800 text-white py-2 px-6 rounded-full text-base shadow-md hover:shadow-lg transition-transform transform hover:scale-105 animate-slow-shake font-semibold"
+        className="bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white py-2 px-6 rounded-full text-base shadow-md hover:shadow-lg transition-transform transform hover:scale-105 animate-slow-shake font-semibold"
       >
         {faqData.buyButtonText || "BUY NOW"}
       </button>
     </div>
   </div>
 </div>
+
 
     </div>
   );

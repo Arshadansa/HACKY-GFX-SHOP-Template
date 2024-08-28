@@ -1,17 +1,17 @@
 const faqData = {
     // Colors
     colors: {
-        headerColor: "text-purple-600",
-        notificationBorderColor: "border-blue-600",
+        headerColor: "text-white",
+        notificationBorderColor: "border-red-600",
         notificationIconColor: "text-red-600",
-        mainHeadingColor: "text-blue-700",
-        descriptionColor: "text-gray-600",
-        noteColor: "text-gray-500",
-        ctaButtonBg: "bg-purple-600 hover:bg-purple-700",
-        countdownLabelColor: "text-blue-600",
-        countdownTimeColor: "text-gray-700",
-        buyButtonBg: "bg-blue-600 hover:bg-blue-700",
-    },
+        mainHeadingColor: "text-yellow-600",
+        descriptionColor: "text-black",
+        noteColor: "text-gray-400",
+        ctaButtonBg: "bg-red-600 hover:bg-red-700",
+        countdownLabelColor: "text-yellow-600",
+        countdownTimeColor: "text-white",
+        buyButtonBg: "bg-red-600 hover:bg-red-700",
+      },
     
     // Fonts
     fonts: {

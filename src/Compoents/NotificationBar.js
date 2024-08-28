@@ -27,7 +27,7 @@ const NotificationBar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 bg-purple-600 text-white py-2 px-4 shadow-md z-50 flex justify-center items-center notification-bar ${
+      className={`fixed top-0 left-0 right-0 bg-black text-white py-2 px-4 shadow-md z-50 flex justify-center items-center notification-bar ${
         fadeOut ? 'fade-out' : ''
       }`}
     >

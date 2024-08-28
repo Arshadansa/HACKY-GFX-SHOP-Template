@@ -41,14 +41,15 @@ export const CustomerContent = {
   },
   
   // Colors
-  colors: {
-    headerColor: "text-blue-600",
-    notificationBorderColor: "border-blue-600",
-    notificationIconColor: "text-red-600",
-    mainHeadingColor: "text-gray-800",
-    ratingColor: "text-purple-700",
-    ctaButtonBg: "bg-purple-600 hover:bg-purple-700",
-  },
+ // Colors
+ colors: {
+  headerColor: "text-white",
+  notificationBorderColor: "border-red-600",
+  notificationIconColor: "text-red-600",
+  mainHeadingColor: "text-yellow-600",
+  ratingColor: "text-orange-500",
+  ctaButtonBg: "bg-red-600 hover:bg-red-700",
+},
 
   // Fonts
   fonts: {

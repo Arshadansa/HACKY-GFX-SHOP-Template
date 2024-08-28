@@ -13,18 +13,19 @@ export const content = {
   buyButtonText: "BUY NOW",
 
   // Colors
-  colors: {
-    headerColor: "text-purple-700",
-    notificationBorderColor: "border-purple-600",
-    notificationIconColor: "text-purple-400",
-    mainHeadingColor: "text-purple-800",
-    descriptionColor: "text-gray-700",
-    noteColor: "text-purple-500",
-    ctaButtonBg: "bg-purple-600 hover:bg-purple-700",
-    countdownLabelColor: "text-purple-600",
-    countdownTimeColor: "text-purple-800",
-    buyButtonBg: "bg-purple-700 hover:bg-purple-800",
-  },
+ // Colors
+ colors: {
+  headerColor: "text-white",
+  notificationBorderColor: "border-red-600",
+  notificationIconColor: "text-yellow-500",
+  mainHeadingColor: "text-yellow-600",
+  descriptionColor: "text-black",
+  noteColor: "text-black",
+  ctaButtonBg: "bg-red-600 hover:bg-red-700",
+  countdownLabelColor: "text-yellow-600",
+  countdownTimeColor: "text-white",
+  buyButtonBg: "bg-red-700 hover:bg-red-800",
+},
 
   // Fonts
   fonts: {
