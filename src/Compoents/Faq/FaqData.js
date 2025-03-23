@@ -1,17 +1,17 @@
 const faqData = {
     // Colors
     colors: {
-        headerColor: "text-blue-600",
-        notificationBorderColor: "border-blue-600",
+        headerColor: "text-white",
+        notificationBorderColor: "border-red-600",
         notificationIconColor: "text-red-600",
-        mainHeadingColor: "text-blue-700",
-        descriptionColor: "text-gray-600",
-        noteColor: "text-gray-500",
-        ctaButtonBg: "bg-purple-600 hover:bg-purple-700",
-        countdownLabelColor: "text-blue-600",
-        countdownTimeColor: "text-gray-700",
-        buyButtonBg: "bg-blue-600 hover:bg-blue-700",
-    },
+        mainHeadingColor: "text-yellow-600",
+        descriptionColor: "text-black",
+        noteColor: "text-gray-400",
+        ctaButtonBg: "bg-red-600 hover:bg-red-700",
+        countdownLabelColor: "text-yellow-600",
+        countdownTimeColor: "text-white",
+        buyButtonBg: "bg-red-600 hover:bg-red-700",
+      },
     
     // Fonts
     fonts: {
@@ -27,7 +27,7 @@ const faqData = {
     faqDataArray: [
         {
             question: "What is included in the Video Editing Bundle?",
-            answer: "The bundle includes over 100 GB of assets, featuring 20,000+ items like 8,000+ transitions, 2,000+ FX presets, 10,000+ fonts, 3,000+ sound effects, glowing effects, overlays, Adobe software, and a complete video editing course.",
+            answer: "The bundle includes over 200 GB of assets, featuring 20,000+ items like 8,000+ transitions, 2,000+ FX presets, 10,000+ fonts, 3,000+ sound effects, glowing effects, overlays, Adobe software, and a complete video editing course.",
         },
         {
             question: "How much does the bundle cost?",

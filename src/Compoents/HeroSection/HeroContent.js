@@ -1,40 +1,39 @@
-// src/content.js
-
 export const content = {
   // Content
-  headerTitle: "HACKY GFX SHOP",
-  notificationText: "Get the World's Biggest Video Editing Pack at the Lowest Price of Just ₹199!",
-  mainHeading: "World's Biggest Video Editing Pack",
-  subHeading: "Are You A Passionate Video Editor Or Aspiring To Become One? You're In The Right Place.",
-  highlightText: "Build Your Visual Legacy With Us!",
-  description: "Unlock Over 100 GB Of Video Editing Assets, Featuring Transitions, Overlays, Fonts, LUTs, FX, Premade Templates, And Premium Software Like Premiere Pro, After Effects, Plus Six More Adobe Products. Plus, You'll Receive A Comprehensive Video Editing Course To Kickstart Your Journey.",
-  noteText: "*Lifetime Access - One-Time Payment - Instant Access - 100% Risk-Free*",
-  ctaButtonText: "⚡ Get Everything at ₹199",
-  countdownLabel: "OFFER ENDS IN",
+  headerTitle: "HACKY GFX SUPERSTORE",
+  notificationText: "Unlock the World's Largest Video Editing Pack with 20,000 + Assets of size over 200 GB+ for Just ₹199!",
+  mainHeading: "The Ultimate Video Editing Collection",
+  subHeading: "Are you a passionate video editor or aspiring to become one? You've come to the right place.",
+  highlightText: "Create Your Visual Masterpiece with Us!",
+  description: "Gain access to over 200 GB of premium video editing assets, including transitions, overlays, fonts, LUTs, FX, premade templates, and top-tier software like Premiere Pro, After Effects, and six other Adobe products. Plus, kickstart your journey with a comprehensive video editing course.",
+  noteText: "*Lifetime Access • One-Time Payment • Instant Access • 100% Risk-Free*",
+  ctaButtonText: "⚡ Get Everything for ₹199",
+  countdownLabel: "LIMITED TIME OFFER ENDS IN",
   countdownTime: "01 : 13 : 51 : 51",
   buyButtonText: "BUY NOW",
 
   // Colors
-  colors: {
-    headerColor: "text-blue-600",
-    notificationBorderColor: "border-blue-600",
-    notificationIconColor: "text-red-600",
-    mainHeadingColor: "text-blue-700",
-    descriptionColor: "text-gray-600",
-    noteColor: "text-gray-500",
-    ctaButtonBg: "bg-purple-600 hover:bg-purple-700",
-    countdownLabelColor: "text-blue-600",
-    countdownTimeColor: "text-gray-700",
-    buyButtonBg: "bg-blue-600 hover:bg-blue-700",
-  },
+ // Colors
+ colors: {
+  headerColor: "text-white",
+  notificationBorderColor: "border-red-600",
+  notificationIconColor: "text-yellow-500",
+  mainHeadingColor: "text-yellow-600",
+  descriptionColor: "text-black",
+  noteColor: "text-black",
+  ctaButtonBg: "bg-red-600 hover:bg-red-700",
+  countdownLabelColor: "text-yellow-600",
+  countdownTimeColor: "text-white",
+  buyButtonBg: "bg-red-700 hover:bg-red-800",
+},
 
   // Fonts
   fonts: {
     headerFont: "font-bold",
-    mainHeadingFont: "font-extrabold",
+    mainHeadingFont: "font-black",
     subHeadingFont: "font-semibold",
     descriptionFont: "font-normal",
-    noteFont: "font-light",
+    noteFont: "font-medium italic",
     buttonFont: "font-bold",
   },
 };
